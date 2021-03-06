@@ -10,4 +10,10 @@ fun main() {
         println("map: $it")
 
     }
+
+    val spices = listOf("curry", "pepper", "cayenne", "ginger", "red curry", "green curry", "red pepper" )
+    spices.filter { it.contains("curry") }.sortedBy { it.length }
+    println(spices)
+
+
 }
